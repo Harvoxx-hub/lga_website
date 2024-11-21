@@ -1,0 +1,100 @@
+.le-hero {
+    position: relative;
+    top: -10vh;
+    height: 90vh;
+    width: 100%;
+
+    background-image: url("../../../Images/houseBuild.jpeg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.le-content {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.le-content .leImg {
+    width: 48%;
+    height: 70vh;
+}
+
+.le-content .leImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.le-content .le-title {
+    width: 48%;
+    line-height: 1.5;
+}
+
+.le-content .le-title h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.le-content .le-title  p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.members {
+    padding: 6% 5%;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.members h2 {
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+
+.members .council-box-le {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.members .council-box-le .box-le {
+    width: 32%;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.members .council-box-le .box-le .img-box-le {
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.members .council-box-le .box-le .img-box-le img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.members .council-box-le .box-le .box-content-le {
+    text-align: center;
+}
+
+.members .council-box-le .box-le .box-content-le h3 {
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.members .council-box-le .box-le .box-content-le p {
+    font-size: 19px;
+    color: gray;
+}
