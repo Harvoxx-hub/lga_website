@@ -99,3 +99,21 @@
     font-size: 19px;
     color: gray;
 }
+
+
+
+@media screen  and (max-width: 480px) {
+
+}
+
+
+
+@media screen  and (max-width: 768px) and (min-width: 481px) {
+
+}
+
+
+
+@media screen  and (max-width: 834px) and (min-width: 769px) {
+    
+}

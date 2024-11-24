@@ -98,3 +98,42 @@
     font-size: 19px;
     color: gray;
 }
+
+
+
+@media screen  and (max-width: 480px) {
+    .le-content {
+        flex-wrap: wrap-reverse;
+        height: unset;
+    }
+
+    .le-content .leImg {
+        width: 100%;
+    }
+
+    .le-content .le-title {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .members .council-box-le {
+        flex-wrap: wrap;
+    }
+
+    .members .council-box-le .box-le  {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media screen  and (max-width: 768px) and (min-width: 481px) {
+
+}
+
+
+
+@media screen  and (max-width: 834px) and (min-width: 769px) {
+    
+}

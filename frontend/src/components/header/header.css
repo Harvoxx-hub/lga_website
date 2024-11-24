@@ -82,6 +82,11 @@
     font-weight: bold;
 }
 
+.header-container ul li .drop-container .drop-down p:hover {
+    color: green;
+}
+
+
 .header-container ul li .drop-container .modal-drop {
     position: absolute;
     background-color: #B6CAD2;
@@ -96,6 +101,8 @@
     list-style: none;
     transition-duration: 3s;
 }
+
+
 
 @media screen  and (max-width: 768px) {
     .header-container .nav-menu {
