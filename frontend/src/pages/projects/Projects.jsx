@@ -19,7 +19,7 @@ const Projects = () => {
 
         <div className='view-project'>
             <h2>
-                An Insight on our <br />latest project
+                An Insight on our latest project
             </h2>
 
             <p>
