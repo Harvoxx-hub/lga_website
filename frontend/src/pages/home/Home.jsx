@@ -35,6 +35,7 @@ const Home = () => {
 
 		<div className='about'>
 			<div className='about-row'>
+
 				<div className='col'>
 					<div className="about-col">
 						<img src={lgaImage} alt="" />
@@ -46,8 +47,9 @@ const Home = () => {
 						</p>
 					</div>
 				</div>
+				
 
-				<div className='col'>
+				<div className='col-meet'>
 					<div className="about-col">
 						<h3>
 							Meet the Chairman

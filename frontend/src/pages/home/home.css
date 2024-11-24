@@ -83,6 +83,12 @@
     flex-wrap: wrap-reverse;
 }
 
+.col-meet {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 
 .about .about-row .about-col {
     width: 46%;
@@ -336,6 +342,7 @@
         width: 100%;
         flex-wrap: wrap-reverse;
         margin-bottom: 40px;
+        position: relative;
     }
 
     .about .about-row .about-col {
@@ -348,6 +355,8 @@
         flex-direction: column;
         line-height: 1.5;
     }
+
+
 
     .projects .project-row .card {
         width: 100%;
