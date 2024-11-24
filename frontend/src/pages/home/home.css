@@ -14,7 +14,7 @@
     color: white;
     line-height: 1.5;
     position: relative;
-    top: -10vh;
+    top: 0;
 
     z-index: 2;
 }
@@ -290,11 +290,6 @@
     padding: 10px 0;
 }
 
-/* .more {
-    position: absolute;
-    bottom: 0;
-    color: black;
-} */
 
 .more:hover {
     text-decoration: underline;
@@ -492,8 +487,6 @@
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        /* flex-wrap: wrap-reverse; */
-        /* flex-direction: column; */
     }
 
     .about .about-row .col {

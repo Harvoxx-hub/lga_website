@@ -4,7 +4,7 @@
     align-items: center;
     height: 50vh;
     position: relative;
-    top: -10vh;
+    top: 0;
 
     background-image: url("../../Images/houseBuild.jpeg");
     background-size: cover;
